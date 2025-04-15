@@ -4,7 +4,7 @@
 var prompt = require('prompt-sync')();
 
 let produtos = [
-    { nome: "Cachaça", preco: 5.99 },
+    { nome: "Pitú", preco: 5.99 },
     { nome: "Conhaque", preco: 7.49 },
     { nome: "Pão de forma", preco: 3.75 },
     { nome: "Óleo", preco: 6.20 }

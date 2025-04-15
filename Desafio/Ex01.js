@@ -8,7 +8,7 @@ var prompt = require('prompt-sync')();
 let nomes = [];
 
 while (true) {
-    let nome = prompt("Digite um nome (ou 'sair' para encerrar): ").trim();
+    let nome = prompt("Digite um nome (ou 'sair' para encerrar): ");
 
     if (nome.toLowerCase() === 'sair') {
         break;
@@ -24,6 +24,6 @@ while (true) {
     }
 }
 
-console.log("\nNomes cadastrados:");
-nomes.forEach(n => console.log("- " + n));
-rCase() === nome.toLowerCase
+console.log("Nomes cadastrados:");
+console.log("- " + nomes);
+
